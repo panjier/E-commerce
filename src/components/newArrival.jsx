@@ -23,46 +23,6 @@ const newArrival = () => {
          </div>
         </div>
         ))}
-      <main role="main">
-        <div class="product">
-          <figure>
-            <img src={PRODUCTS1.img} alt="Product Image" className="product-image"> </img>
-              </figure>
-                <div class="product-description">
-                  <div class="info">
-                    <h1>LOREM IPSUM</h1>
-                    <p>
-                      Lorem Ipsum is simply dummy
-                      printing and typesetting industry
-                    </p>
-                   </div>
-               <div class="price">
-                89
-                 </div>
-            </div>
-            <div class="product-sidebar">
-              <button class="buy">
-                <span>BUY ITEM</span>
-              </button>
-
-              <button class="info">
-                <span>MORE INFO</span>
-              </button>
-
-              <button class="size">
-                <span>SIZES</span>
-              </button>
-
-              <button class="colors">
-                <span>
-                  <a href="" class="color black"></a>
-                  <a href="" class="color white"></a>
-                  <a href="" class="color red"></a>
-                </span>
-              </button>
-            </div>
-            </div>
-          </main>
     </div>
   </>
 }

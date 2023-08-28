@@ -5,6 +5,7 @@ import FeaturedProducts from '../components/featuredProducts'
 import NewArrival from '../components/newArrival'
 import img1 from '../assets/images/banner/b17.jpg'
 import img2 from '../assets/images/banner/b10.jpg'
+import Blogs from '../components/blogs'
 
 const home = () => {
   return <>
@@ -103,6 +104,14 @@ const home = () => {
              </div>
           </div>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section className='blogs p-5'>
+      <div className="container-xxl">
+        <div className="row">
+        <Blogs />
         </div>
       </div>
     </section>

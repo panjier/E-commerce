@@ -62,10 +62,10 @@ const home = () => {
     </div>
     </section>
 
-    <section className='deals mb-3'>
+    <section className='deals p-5'>
       <div className="container-xxl">
         <div className="row">
-          <div className="col-6">
+          <div className="col-6 p-4">
             <div className="card row">
               <div className="d-flex">
               <div className="col-md-4">
@@ -84,7 +84,7 @@ const home = () => {
               </div>
             </div>
           </div>
-          <div className="col-6">
+          <div className="col-6 p-4">
             <div className="card row">
              <div className="d-flex">
              <div className="col-md-4">

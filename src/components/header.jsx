@@ -13,56 +13,53 @@ const header = () => {
 
   return (
     <>
-      <header className="header-top-strip p-1 px-4 shadow-md">
-        <div className="container-xxl">
-          <div className="row align-items-center">
-            <div className="title col-6">
-              <span className="title-word title-word-1">The Tranding </span>
-              <span className="title-word title-word-2">Outfit At </span>
-              <span className="title-word title-word-3">100% Of</span>
+      <header className='header-top-strip p-1 px-4 shadow-md'>
+        <div className='container-xxl'>
+          <div className='row align-items-center'>
+            <div className='title col-6'>
+              <span className='title-word title-word-1'>The Tranding </span>
+              <span className='title-word title-word-2'>Outfit At </span>
+              <span className='title-word title-word-3'>100% Of</span>
             </div>
-            <div className="col-6 d-flex justify-content-between">
+            <div className='col-6 d-flex justify-content-between'>
               <div>
-                <a href="tel:+6289673761949"> call us +6289673761949 </a>
+                <a href='tel:+6289673761949'> call us +6289673761949 </a>
               </div>
               <div>
                 <Link>
-                  <BiSolidPhoneCall className="fs-5 mx-4" />
+                  <BiSolidPhoneCall className='fs-5 mx-4' />
                 </Link>
                 <Link>
-                  <HiOutlineMail className="fs-5 mx-4" />
+                  <HiOutlineMail className='fs-5 mx-4' />
                 </Link>
               </div>
             </div>
           </div>
         </div>
       </header>
-      <header className="header-upper px-3">
-        <div className="container-xxl"></div>
-        <div className="row">
-          <div className="col-2 m-auto text-center">
-            <Link to="/">
-              <img src={logo} alt="" className="img-fluid logo" />
+      <header className='header-upper px-3'>
+        <div className='container-xxl'></div>
+        <div className='row'>
+          <div className='col-2 m-auto text-center'>
+            <Link to='/'>
+              <img src={logo} alt='' className='img-fluid logo' />
             </Link>
           </div>
-          <div className="col-3 d-flex align-items-center mt-3">
-            <div className="input-group mb-3">
-              <span class="input-group-text" id="basic-addon1">
-                All
-              </span>
+          <div className='col-3 d-flex align-items-center mt-3'>
+            <div className='input-group mb-3'>
               <input
-                type="text"
-                className="form-control p-2"
-                placeholder="Search Product"
+                type='text'
+                className='form-control p-2'
+                placeholder='Search Product'
                 aria-label="Recipient's username"
-                aria-describedby="basic-addon2"
+                aria-describedby='basic-addon2'
               />
-              <button className="input-group-text" id="basic-addon2">
+              <button className='input-group-text' id='basic-addon2'>
                 <FiSearch />
               </button>
             </div>
           </div>
-          <div className="nav-links col-4 d-flex justify-content-between align-items-center text-center m-auto">
+          <div className='nav-links col-4 d-flex justify-content-between align-items-center text-center m-auto'>
             <Link
               to={"/"}
               className={location.pathname === "/" ? "active" : "inactive"}
@@ -96,16 +93,16 @@ const header = () => {
               Contact
             </Link>
           </div>
-          <div className="nav-links-nav col-3 d-flex align-items-center justify-content-around">
+          <div className='nav-links-nav col-3 d-flex align-items-center justify-content-around'>
             <Link
               to={"wishlist"}
               className={
                 location.pathname === "/wishlist" ? "active" : "inactive"
               }
             >
-              <div className="d-flex m-2">
+              <div className='d-flex m-2'>
                 <span>
-                  <BiSolidHeart className="fs-5 mx-2" />
+                  <BiSolidHeart className='fs-5 mx-2' />
                 </span>
               </div>
             </Link>
@@ -113,9 +110,9 @@ const header = () => {
               to={"login"}
               className={location.pathname === "/login" ? "active" : "inactive"}
             >
-              <div className="d-flex m-2 ">
+              <div className='d-flex m-2 '>
                 <span>
-                  <RiAccountCircleFill className="fs-5 mx-2" />
+                  <RiAccountCircleFill className='fs-5 mx-2' />
                 </span>
               </div>
             </Link>
@@ -123,9 +120,9 @@ const header = () => {
               to={"cart"}
               className={location.pathname === "/cart" ? "active" : "inactive"}
             >
-              <div className="d-flex m-2">
+              <div className='d-flex m-2'>
                 <span>
-                  <IoMdCart className="fs-5 mx-2" />
+                  <IoMdCart className='fs-5 mx-2' />
                 </span>
               </div>
             </Link>

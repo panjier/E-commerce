@@ -326,3 +326,15 @@ footer {
 }
 
 /* Home ends */
+
+/* Shop Start */
+
+.shop-banner {
+  background: url(./assets/images/banner/b1.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 30vh;
+}
+
+/* Shop Ends */
